@@ -111,13 +111,13 @@ let bikorot = [
  function slideImg(){
      i=i+1;
      if(i<numberOfCarsImages+1){
-     cars_img.innerHTML=`<img src="/car${i}.jpeg" class="d-block w-100" alt="...">`;
+     cars_img.innerHTML=`<img src="/A_B_Cars_Images/car${i}.jpeg" class="d-block w-100" alt="...">`;
     }
  };
  function slideImgback(){
     i=i-1;
     if(i>0){
-    cars_img.innerHTML=`<img src="/car${i}.jpeg" class="d-block w-100" alt="...">`;
+    cars_img.innerHTML=`<img src="/A_B_Cars_Images/car${i}.jpeg" class="d-block w-100" alt="...">`;
     }
 };
 
