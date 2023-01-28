@@ -228,7 +228,7 @@ sendEmailButton.addEventListener('click',()=>{
 
 
 //content
-cars_img.innerHTML=`<img src="/A_B_Cars_Images/car1.jpeg" class="d-block w-100" alt="...">`
+cars_img.innerHTML=`<img src="A_B_Cars_Images/car1.jpeg" class="d-block w-100" alt="...">`
 
 bikoretText.innerHTML=bikorot[0].bikoret;
 bikoretName.innerHTML=bikorot[0].name;
