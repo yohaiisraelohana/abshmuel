@@ -222,7 +222,7 @@ sendEmailButton.addEventListener('click',()=>{
       message => {
             alert(message);
             console.log(message.Host);
-            location.reload();
+            window.location.reload();
         }
     );    
 });
