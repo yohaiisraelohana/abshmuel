@@ -220,7 +220,7 @@ sendEmailButton.addEventListener('click',()=>{
         שם:${name} <br>פלאפון:${phone} <br>אימייל:${email} `
     }).then(
       message => {
-            alert(״הפרטים נשלחו בהצלחה״);
+            alert('הפרטים נשלחו בהצלחה');
             console.log(message.Host);
             window.location.reload();
         }
